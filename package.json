@@ -1,0 +1,33 @@
+{
+  "name": "compare",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vercel/kv": "^3.0.0",
+    "@vitest/coverage-v8": "^4.1.4",
+    "autoprefixer": "^10.4.27",
+    "jsdom": "^29.0.2",
+    "next": "^15.5.15",
+    "postcss": "^8.5.9",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4",
+    "zod": "^4.3.6"
+  }
+}
